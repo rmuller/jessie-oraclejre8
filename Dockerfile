@@ -1,6 +1,4 @@
 # Dockerfile for 'rmuller/jessie-oraclejre8'
-#
-# Use Debian 8 trimmed down version as base (about 35% smaller than debian:jessy)
 FROM debian:jessie-slim
 MAINTAINER Ronald K. Muller <rmuller@xiam.nl>
 ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
